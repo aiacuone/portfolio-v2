@@ -1,0 +1,78 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.titleContainer {
+	position: relative;
+}
+
+.title {
+	border-bottom: 1px solid rgb(204, 204, 204);
+	width: 180px;
+	position: relative;
+	margin: 0;
+	text-align: right;
+}
+
+.subTitle {
+	position: absolute;
+	right: 10px;
+	top: -30px;
+}
+
+.subContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ul {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.li {
+	list-style: none;
+	/* font-size: 1.1rem; */
+}
+
+.li:not(:first-child) {
+	margin: 15px 0;
+}
+
+.image {
+	height: 300px;
+	width: 300px;
+	background-image: url(../images/aboutMeBackground.jpg);
+	background-size: cover;
+	background-position: center;
+	right: -260px;
+	top: 20px;
+}
+
+.storyButton {
+	background: rgb(228, 228, 228);
+	padding: 5px 30px;
+	margin: 0 0 20px 0;
+	/* border-style: none; */
+	cursor: pointer;
+}
+
+.back {
+	position: absolute;
+	top: -40px;
+	left: -10px;
+	border-style: none;
+	font-size: 1rem;
+	background: rgb(240, 240, 240);
+	width: 80px;
+	height: 30px;
+	margin: 0;
+	display: grid;
+	place-items: center;
+}

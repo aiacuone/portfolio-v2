@@ -1,0 +1,114 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subContainer1 {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+}
+
+.nameContainer,
+.reactContainer,
+.locationContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	position: relative;
+	flex-direction: column;
+}
+
+$borderColor: rgb(226, 226, 226);
+
+.nameContainer {
+	border-bottom: 1px $borderColor solid;
+	border-right: 1px $borderColor solid;
+}
+
+.name {
+
+
+	margin: 10px 0 0 0;
+	// white-space: nowrap;
+	// background: blue;
+	text-align: right;
+	padding: 0;
+
+}
+
+.photo {
+	background-image: url(../images/photo.png);
+	height: 200px;
+	width: 120px;
+	background-size: cover;
+	background-position: 10px center;
+	background-repeat: no-repeat;
+}
+
+.reactContainer {
+	border-right: 1px $borderColor solid;
+}
+
+.london {
+	width: 200px;
+}
+
+.londonTitle {
+	position: absolute;
+	top: -30px;
+}
+
+.navContainer {
+	border-top: 1px $borderColor solid;
+	padding: 20px;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.nav {
+	text-align: center;
+	padding: 5px 10px;
+	background: rgb(226, 226, 226);
+	cursor: pointer;
+}
+
+.ul {
+	list-style: none;
+	margin: 0;
+	color: rgb(54, 54, 54);
+	padding: 0;
+}
+
+.image {
+	max-width: 200px;
+}
+
+.react {
+	width: 100px;
+}
+
+.reactTitle{
+	text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+	.london{
+		width: 150px;
+		// background: blue;
+	}
+
+	.photo{
+
+		height: 150px;
+		width: 100px;
+
+		background-position: 20px center;
+	}
+
+	.react{
+		width: 70px;
+	}
+}

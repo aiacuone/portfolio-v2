@@ -1,0 +1,77 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	flex-direction: column;
+}
+
+.title {
+	text-align: right;
+	margin: 0;
+}
+
+.ul {
+	list-style: none;
+	padding: 10px 30px;
+	border-left: 1px solid rgb(206, 206, 206);
+	position: relative;
+	height: 100%;
+}
+
+.li {
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+}
+
+.li:not(:first-child) {
+	margin: 30px 0;
+}
+
+.li:first-child {
+	margin: 20px 0;
+}
+
+.iconContainer {
+	display: flex;
+	margin: 5px 0;
+	justify-content: flex-end;
+	margin: 10px 0 0 0;
+}
+
+.icon {
+	width: 50px;
+	margin: 0 20px;
+	position: absolute;
+	left: -100px;
+}
+
+.lodash{
+	width: 40px;
+	margin: 0 25px;
+	position: absolute;
+	left: -100px;
+}
+
+.subContainer {
+	width: 100px;
+}
+
+.skills {
+	margin: 0 0 0 120px;
+}
+
+.back {
+	position: absolute;
+	top: -40px;
+	left: -10px;
+	border-style: none;
+	font-size: 1rem;
+	background: rgb(240, 240, 240);
+	width: 80px;
+	height: 30px;
+	margin: 0;
+	display: grid;
+	place-items: center;
+}
