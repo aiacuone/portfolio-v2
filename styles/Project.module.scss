@@ -1,3 +1,5 @@
+$buttonColor: rgb(226, 226, 226);
+
 .container {
 	max-width: 500px;
 	position: relative;
@@ -25,7 +27,7 @@
 }
 
 .button {
-	background: rgb(197, 197, 197);
+	background: $buttonColor;
 	border: none;
 	padding: 10px 50px;
 	margin: 0px 10px;
@@ -78,7 +80,7 @@
 	left: -10px;
 	border-style: none;
 	font-size: 1rem;
-	background: rgb(240, 240, 240);
+	background: $buttonColor;
 	width: 80px;
 	height: 30px;
 	margin: 0;

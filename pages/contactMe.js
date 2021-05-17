@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import styles from '../styles/ContactMe.module.css'
+import styles from '../styles/ContactMe.module.scss'
 import phone from '../images/phone.svg'
 import linkedin from '../images/linkedin_grey.svg'
 import email from '../images/email_grey.svg'
@@ -35,7 +35,7 @@ export default function contactMe() {
 					</a>
 				</li>
 				<li className={styles.li}>
-					<a className={styles.a} href="">
+					<a className={styles.a} href="tel:07393961334">
 						<img src={phone} className={styles.icon} />
 						07 393 961 334
 					</a>

@@ -1,3 +1,6 @@
+$borderColor: rgb(226, 226, 226);
+$buttonColor:rgb(226, 226, 226);
+
 .container {
 	display: flex;
 	justify-content: center;
@@ -21,7 +24,7 @@
 	flex-direction: column;
 }
 
-$borderColor: rgb(226, 226, 226);
+
 
 .nameContainer {
 	border-bottom: 1px $borderColor solid;
@@ -71,7 +74,7 @@ $borderColor: rgb(226, 226, 226);
 .nav {
 	text-align: center;
 	padding: 5px 10px;
-	background: rgb(226, 226, 226);
+	background: $buttonColor;
 	cursor: pointer;
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import styles from '../styles/Projects.module.css'
+import styles from '../styles/Projects.module.scss'
 import cheapshark from '../images/cheapsharkLogo.jpg'
 import freecodecamp from '../images/freecodecampLogo.svg'
 import tekkenNet from '../images/tekkennetLogo.svg'

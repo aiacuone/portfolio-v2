@@ -1,3 +1,5 @@
+$buttonColor: rgb(226, 226, 226);
+
 .container {
 	display: flex;
 	justify-content: center;
@@ -56,7 +58,7 @@
 }
 
 .storyButton {
-	background: rgb(228, 228, 228);
+	background: $buttonColor;
 	padding: 5px 30px;
 	margin: 0 0 20px 0;
 	/* border-style: none; */
@@ -69,7 +71,7 @@
 	left: -10px;
 	border-style: none;
 	font-size: 1rem;
-	background: rgb(240, 240, 240);
+	background: $buttonColor;
 	width: 80px;
 	height: 30px;
 	margin: 0;
