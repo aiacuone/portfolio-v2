@@ -8,7 +8,7 @@ import cv from '../images/cv_grey.svg'
 
 export default function contactMe() {
 	return (
-		<div className="container">
+		<div className="container contactMe">
 			<Head>
 				<title>Contact Me - A.Iacuone</title>
 			</Head>
