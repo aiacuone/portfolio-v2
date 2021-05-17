@@ -9,13 +9,13 @@ import Link from 'next/link'
 
 export default function projects() {
 	return (
-		<div className='container'>
+		<div className="container">
 			<Head>
 				<title>Projects - A.Iacuone</title>
 			</Head>
-			<Link href="/">
-				<a className='back_button'>Back</a>
-			</Link>
+			<a className="back_button" onClick={() => window.history.back()}>
+				Back
+			</a>
 			<h2 className={styles.title}>PROJECTS</h2>
 			<p className={styles.p}>
 				These are my personal projects that I created myself. Click on the

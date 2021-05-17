@@ -5,13 +5,13 @@ import Link from 'next/link'
 
 export default function aboutMe() {
 	return (
-		<div className='container'>
+		<div className="container">
 			<Head>
 				<title>About Me - A.Iacuone</title>
 			</Head>
-			<Link href="/">
-				<a className='back_button'>Back</a>
-			</Link>
+			<a className="back_button" onClick={() => window.history.back()}>
+				Back
+			</a>
 			<div className={styles.titleContainer}>
 				<h2 className={styles.title}>ABOUT ME</h2>
 				<p className={styles.subTitle}>a little</p>

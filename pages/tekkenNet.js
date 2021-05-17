@@ -5,13 +5,13 @@ import Link from 'next/link'
 
 export default function tekkenNet() {
 	return (
-		<div className='container'>
+		<div className="container">
 			<Head>
 				<title>Tekken Net</title>
 			</Head>
-			<Link href="/projects">
-				<a className='back_button'>Back</a>
-			</Link>
+			<a className="back_button" onClick={() => window.history.back()}>
+				Back
+			</a>
 			<h2 className={styles.title}>TEKKEN NET</h2>
 			<div className={styles.subContainer}>
 				<h3>Summary</h3>

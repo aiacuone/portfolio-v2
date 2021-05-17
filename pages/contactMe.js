@@ -5,17 +5,16 @@ import phone from '../images/phone.svg'
 import linkedin from '../images/linkedin_grey.svg'
 import email from '../images/email_grey.svg'
 import cv from '../images/cv_grey.svg'
-import Link from 'next/link'
 
 export default function contactMe() {
 	return (
-		<div className='container'>
+		<div className="container">
 			<Head>
 				<title>Contact Me - A.Iacuone</title>
 			</Head>
-			<Link href="/">
-				<a className="back_button">Back</a>
-			</Link>
+			<a className="back_button" onClick={()=>window.history.back()}>
+				Back
+			</a>
 			<h2 className={styles.title}>CONTACT ME</h2>
 			<ul>
 				<li className={styles.li}>

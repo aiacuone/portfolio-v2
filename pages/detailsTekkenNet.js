@@ -1,17 +1,16 @@
 import React from 'react'
 import styles from '../styles/Details.module.scss'
 import Head from 'next/head'
-import Link from 'next/link'
 
 export default function detailsTekkenNet() {
 	return (
-		<div className='container'>
+		<div className="container">
 			<Head>
 				<title>Tekken Net Details</title>
 			</Head>
-			<Link href="/tekkenNet">
-				<a className='back_button'>Back</a>
-			</Link>
+			<a className="back_button" onClick={() => window.history.back()}>
+				Back
+			</a>
 			<h3 className={styles.title}>Tekken Net: More Details</h3>
 			<p className={styles.text}>
 				My first every project, which I'm very proud of. A tip I was given when

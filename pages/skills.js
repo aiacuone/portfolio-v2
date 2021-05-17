@@ -7,20 +7,19 @@ import next from '../images/next.svg'
 import lodash from '../images/lodash.svg'
 import css from '../images/css.svg'
 import html from '../images/html.svg'
-import Link from 'next/link'
 import illustrator from '../images/illustrator.svg'
 import photoshop from '../images/photoshop.svg'
 import object from '../images/object.svg'
 
 export default function skills() {
 	return (
-		<div className='container'>
+		<div className="container">
 			<Head>
 				<title>Skills - A.Iacuone</title>
 			</Head>
-			<Link href="/">
-				<a className='back_button'>Back</a>
-			</Link>
+			<a className="back_button" onClick={() => window.history.back()}>
+				Back
+			</a>
 			<h2 className={styles.title}>SKILLS</h2>
 			<div className={styles.subContainer}></div>
 			<div className={styles.skills}>

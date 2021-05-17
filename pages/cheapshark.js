@@ -9,9 +9,9 @@ export default function cheapshark() {
 			<Head>
 				<title>Cheapshark</title>
 			</Head>
-			<Link href="/projects">
-				<a className='back_button'>Back</a>
-			</Link>
+			<a className="back_button" onClick={()=>window.history.back()}>
+				Back
+			</a>
 			<h2 className={styles.title}>CHEAPSHARK</h2>
 			<div className={styles.subContainer}>
 				<h3>Summary</h3>
