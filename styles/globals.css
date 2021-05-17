@@ -69,9 +69,13 @@ footer {
 	flex-direction: column;
 	position: relative;
 	padding: 50px 20px 20px 20px;
-
+	max-width: 1000px;
 }
 
 .container.contactMe{
 	padding: 70px;
+}
+
+ul{
+	list-style: none;
 }

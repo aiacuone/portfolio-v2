@@ -13,6 +13,7 @@ export default function detailsFreecodecamp() {
 				Back
 			</a>
 			<h3 className={styles.title}>Freecodecamp: More Details</h3>
+
 			<p className={styles.text}>
 				<b>Why did I use Freecodecamp?</b>
 				<br />

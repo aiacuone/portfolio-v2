@@ -2,6 +2,10 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Project.module.scss'
 import Link from 'next/link'
+import react from '../images/reactLogo.svg'
+import javascript from '../images/javascriptLogo.svg'
+import css from '../images/css.svg'
+import html from '../images/html.svg'
 
 export default function freecodecamp() {
 	return (
@@ -22,7 +26,24 @@ export default function freecodecamp() {
 					onto advanced areas.
 				</p>
 				<h3>Languages</h3>
-				<p>React, Javascript, HTML, CSS</p>
+				<ul>
+					<li className={styles.li}>
+						<img src={react} className={styles.icon} />
+						React
+					</li>
+					<li className={styles.li}>
+						<img src={javascript} className={styles.icon} />
+						Javascript
+					</li>
+					<li className={styles.li}>
+						<img src={css} className={styles.icon} />
+						CSS
+					</li>
+					<li className={styles.li}>
+						<img src={html} className={styles.icon} />
+						HTML
+					</li>
+				</ul>
 				<h3>Skills</h3>
 				<p>
 					Regex, Loops, Arrays, Array Methods, Objects, Object methods,

@@ -2,14 +2,19 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Project.module.scss'
 import Link from 'next/link'
+import react from '../images/reactLogo.svg'
+import javascript from '../images/javascriptLogo.svg'
+import css from '../images/css.svg'
+import html from '../images/html.svg'
+import illustrator from '../images/illustrator.svg'
 
 export default function cheapshark() {
 	return (
-		<div className='container'>
+		<div className="container">
 			<Head>
 				<title>Cheapshark</title>
 			</Head>
-			<a className="back_button" onClick={()=>window.history.back()}>
+			<a className="back_button" onClick={() => window.history.back()}>
 				Back
 			</a>
 			<h2 className={styles.title}>CHEAPSHARK</h2>
@@ -19,10 +24,31 @@ export default function cheapshark() {
 					This App is demonstrating the use of fetching data from an API,
 					specifically game deals across various online stores.
 				</p>
-				<h3>Languages</h3>
-				<p>React, Javascript, HTML, CSS</p>
+				<h3>Languages & Applications</h3>
+				<ul>
+					<li className={styles.li}>
+						<img src={react} className={styles.icon} />
+						React
+					</li>
+					<li className={styles.li}>
+						<img src={javascript} className={styles.icon} />
+						Javascript
+					</li>
+					<li className={styles.li}>
+						<img src={css} className={styles.icon} />
+						CSS
+					</li>
+					<li className={styles.li}>
+						<img src={html} className={styles.icon} />
+						HTML
+					</li>
+					<li className={styles.li}>
+						<img src={illustrator} className={styles.icon} />
+						Adobe Illustrator
+					</li>
+				</ul>
 				<h3>Skills</h3>
-				<p>Loops, Arrays, Array Methods, Objects, Object methods, Functions</p>
+				<p>APi's, Loops, Arrays, Array Methods, Objects, Object methods, Functions</p>
 			</div>
 			<Link href="/detailsCheapshark">
 				<button className={styles.button}>More Details</button>
