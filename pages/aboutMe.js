@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 export default function aboutMe() {
 	return (
-		<div className={styles.container}>
+		<div className='container'>
 			<Head>
 				<title>About Me - A.Iacuone</title>
 			</Head>
 			<Link href="/">
-				<a className={styles.back}>Back</a>
+				<a className='back_button'>Back</a>
 			</Link>
 			<div className={styles.titleContainer}>
 				<h2 className={styles.title}>ABOUT ME</h2>

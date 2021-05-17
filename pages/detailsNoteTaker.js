@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 export default function detailsNoteTaker() {
 	return (
-		<div className={styles.container}>
+		<div className='container'>
 			<Head>
 				<title>Note Taker Details</title>
 			</Head>
 			<Link href="/noteTaker">
-				<a className={styles.back}>Back</a>
+				<a className='back_button'>Back</a>
 			</Link>
 			<h3 className={styles.title}>Note Taker: More Details</h3>
 			<p className={styles.text}>

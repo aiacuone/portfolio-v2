@@ -1,14 +1,5 @@
 $buttonColor: rgb(226, 226, 226);
 
-.container{
-    /* background: blue; */
-    position: relative;
-    /* width: 100%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .title {
 	text-align: center;
@@ -22,18 +13,5 @@ $buttonColor: rgb(226, 226, 226);
 	color: blue;
 }
 
-.back {
-	position: absolute;
-	top: -40px;
-	left: -10px;
-	border-style: none;
-	font-size: 1rem;
-	background: $buttonColor;
-	width: 80px;
-	height: 30px;
-	margin: 0;
-	display: grid;
-	place-items: center;
-}
 
 

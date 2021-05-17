@@ -43,7 +43,6 @@ export default function Header() {
 								href="https://1drv.ms/b/s!Any2Z6OIuSuhvv5vn0Sjeo6-ZEBrUg?e=9NRsih"
 								target="_blank">
 								<img src={cv} className={styles.icon} />
-								CV
 							</a>
 						</div>
 						<div className={styles.aContainer}>

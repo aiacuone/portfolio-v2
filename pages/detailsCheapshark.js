@@ -5,13 +5,13 @@ import Link from 'next/link'
 
 export default function detailsCheapshark() {
 	return (
-		<div className={styles.container}>
+		<div className='container'>
 			{' '}
 			<Head>
 				<title>Cheapshark Details</title>
 			</Head>
 			<Link href="/cheapshark">
-				<a className={styles.back}>Back</a>
+				<a className='back_button'>Back</a>
 			</Link>
 			<h3 className={styles.title}>Cheapshark: More Details</h3>
 			<p className={styles.text}>

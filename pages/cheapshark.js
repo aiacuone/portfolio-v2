@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 export default function cheapshark() {
 	return (
-		<div className={styles.container}>
+		<div className='container'>
 			<Head>
 				<title>Cheapshark</title>
 			</Head>
 			<Link href="/projects">
-				<a className={styles.back}>Back</a>
+				<a className='back_button'>Back</a>
 			</Link>
 			<h2 className={styles.title}>CHEAPSHARK</h2>
 			<div className={styles.subContainer}>

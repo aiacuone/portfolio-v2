@@ -9,12 +9,12 @@ import Link from 'next/link'
 
 export default function contactMe() {
 	return (
-		<div className={styles.container}>
+		<div className='container'>
 			<Head>
 				<title>Contact Me - A.Iacuone</title>
 			</Head>
 			<Link href="/">
-				<a className={styles.back}>Back</a>
+				<a className="back_button">Back</a>
 			</Link>
 			<h2 className={styles.title}>CONTACT ME</h2>
 			<ul>

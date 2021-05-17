@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 export default function freecodecamp() {
 	return (
-		<div className={styles.container}>
+		<div className='container'>
 			<Head>
 				<title>Freecodecamp</title>
 			</Head>
 			<Link href="/projects">
-				<a className={styles.back}>Back</a>
+				<a className='back_button'>Back</a>
 			</Link>
 			<h2 className={styles.title}>FREECODECAMP</h2>
 			<div className={styles.subContainer}>

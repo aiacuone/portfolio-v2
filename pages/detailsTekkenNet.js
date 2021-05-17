@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 export default function detailsTekkenNet() {
 	return (
-		<div className={ styles.container}>
+		<div className='container'>
 			<Head>
 				<title>Tekken Net Details</title>
 			</Head>
 			<Link href="/tekkenNet">
-				<a className={styles.back}>Back</a>
+				<a className='back_button'>Back</a>
 			</Link>
 			<h3 className={styles.title}>Tekken Net: More Details</h3>
 			<p className={styles.text}>

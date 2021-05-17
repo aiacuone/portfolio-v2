@@ -69,7 +69,7 @@
 .aContainer {
 	display: inline-block;
 	position: relative;
-	padding: 5px 40px 5px 0;
+	padding: 5px 20px 5px 20px;
 }
 
 .details {
@@ -99,7 +99,7 @@
 
 .nav {
 	position: absolute;
-	background: rgb(236, 236, 236);
+	background: rgb(226, 226, 226);
 	z-index: 1;
 	top: 200px;
 	display: flex;
