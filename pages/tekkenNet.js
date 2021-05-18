@@ -27,6 +27,8 @@ export default function tekkenNet() {
 					characteristics and attributes. Tekken-Net provides and easy to use
 					platform, with various ways to filter and search any move you wish.
 				</p>
+				<h3>Date Completed</h3>
+				<p>October, 2020</p>
 				<h3>Languages & Applications</h3>
 				<ul>
 					<li className={styles.li}>

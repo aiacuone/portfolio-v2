@@ -15,7 +15,6 @@ export default function Header() {
 
 	useEffect(() => {
 		function handleToggle(e) {
-			console.log(e.target.className)
 			if (
 				e.target.className !== 'Header_nav__lyM1u' &&
 				e.target.className !== 'Header_navLink__3LgeJ' &&

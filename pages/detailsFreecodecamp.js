@@ -2,7 +2,6 @@ import React from 'react'
 import styles from '../styles/Details.module.scss'
 import Head from 'next/head'
 
-
 export default function detailsFreecodecamp() {
 	return (
 		<div className="container">
@@ -17,10 +16,8 @@ export default function detailsFreecodecamp() {
 			<p className={styles.text}>
 				<b>Why did I use Freecodecamp?</b>
 				<br />
-				I have multiple close friends that are software developers, they all
-				recommended me to use freecodecamp. Whilst I've never tried another
-				bootcamp, I'm very confident that freecodecamp is high quality and very
-				happy with my choice.
+				I was advised by close friends that work in the industry, that
+				Freecodecamp was a solid choice, and after months of using Freecodecamp I agree.
 				<br />
 				<br />
 				<b>What did I learn creating this project?</b>
@@ -30,12 +27,10 @@ export default function detailsFreecodecamp() {
 				<br />
 				<b>What was the hardest part of Freecodecamp</b>
 				<br />
-				The Javascript algorithms were challenging. At times, there were times
+				The Javascript algorithms were challenging. There were times
 				that I felt like Freecodecamp did a very good job in leading you up to
 				challenging exercises, and there we're times I felt like I was thrown in
 				the deep end, resulting in hours of research.
-				<br />
-				<br />
 			</p>
 		</div>
 	)

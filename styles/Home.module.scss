@@ -3,8 +3,9 @@ $buttonColor: rgb(226, 226, 226);
 
 .container {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
+	position: relative;
 }
 
 .subContainer1 {
@@ -35,17 +36,12 @@ $buttonColor: rgb(226, 226, 226);
 .nameContainer {
 	border-bottom: 1px $borderColor solid;
 	border-right: 1px $borderColor solid;
-	// display: flex;
-	// justify-content: flex-start;
-	// align-items: flex-start;
 	height: 250px;
 	width: 130px;
 }
 
 .name {
 	margin: 10px 0 0 0;
-	// white-space: nowrap;
-	// background: blue;
 	text-align: right;
 	padding: 0;
 }
@@ -113,18 +109,7 @@ $buttonColor: rgb(226, 226, 226);
 @media screen and (max-width: 450px) {
 	.london {
 		width: 150px;
-		// background: blue;
 	}
-
-	// .photo {
-	// 	height: 150px;
-	// 	width: 100px;
-
-	// 	background-position: 20px center;
-	// }
-	.nameContainer {
-	}
-
 	.react {
 		width: 70px;
 	}

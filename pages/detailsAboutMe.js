@@ -18,24 +18,23 @@ export default function detailsAboutMe() {
 				for Software Development, and after I graduated from high school, I took
 				part in a Web Development course.
 				<br /> <br />
-				This was in 2006, myspace was beginning to fade, facebook had just
-				started taking off, youtube had just been created and the world Software
-				Development wasn't an industry that it is today. <br />
+				This was in 2006, Myspace was beginning to fade, Facebook had just
+				started taking off, Youtube had just been created and the world of
+				Software Development wasn't the industry that it is today. <br />
 				<br />
-				The consensus was that if you couldn't see yourself doing anything else,
-				then keep going, however if you want to a healthy amount of money and
-				job security, this wasn't the direction to go. As a result, I put my
-				focus into being an electrician, which in Australia is a relatively high
-				paying job.
+				The general consensus at the time was that Software Development was a
+				risky industry to pursue, and instead it was advised to get a job with
+				better security and steady income. As a result, I put my focus into
+				being an electrician, which in Australia is considered respectable.
 				<br />
 				<br />
 				Time has passed, times have changed and I wish to finish what I started.
 				<br />
-				<br />I am friendly, hard working, self motivated and eager to learn. I
-				understand what it is be a junior, and I also understand what is it be a
-				senior having people work under you. I'm already coming from a technical
-				background, which I think can only be a catalyst for me to grow in this
-				industry.
+				<br />I am friendly, hard working, self motivated and eager to learn. My
+				experience thus far will show that I can work with all levels of staff,
+				in high pressured environments and can provide leadership as needed. I'm
+				coming from a technical background, which will be catalyst for me to
+				grow in this industry.
 			</p>
 		</div>
 	)

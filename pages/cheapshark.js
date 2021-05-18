@@ -21,9 +21,11 @@ export default function cheapshark() {
 			<div className={styles.subContainer}>
 				<h3>Summary</h3>
 				<p>
-					This App is demonstrating the use of fetching data from an API,
+					This App is demonstrating the use of fetching data from a REST API,
 					specifically game deals across various online stores.
 				</p>
+				<h3>Date Completed</h3>
+				<p>March, 2021</p>
 				<h3>Languages & Applications</h3>
 				<ul>
 					<li className={styles.li}>
@@ -48,7 +50,10 @@ export default function cheapshark() {
 					</li>
 				</ul>
 				<h3>Skills</h3>
-				<p>APi's, Loops, Arrays, Array Methods, Objects, Object methods, Functions</p>
+				<p>
+					REST API's, Loops, Arrays, Array Methods, Objects, Object methods,
+					Functions
+				</p>
 			</div>
 			<Link href="/detailsCheapshark">
 				<button className={styles.button}>More Details</button>

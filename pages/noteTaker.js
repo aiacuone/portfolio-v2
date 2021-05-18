@@ -22,10 +22,10 @@ export default function noteTaker() {
 				<h3>Summary</h3>
 				<p>
 					An application that gives the user the ability to Add, Delete and Edit
-					Notes and Folders. Note Taker uses constructors to create the Notes
-					and Folders, and using Lodash, places the data into the correct
-					location.
+					Notes. The notes can be in multiple forms, such as text, images, videos. The notes can also be stored within folders that can be named and coloured for easy and efficient access.
 				</p>
+				<h3>Date Completed</h3>
+				<p>April, 2021</p>
 				<h3>Languages & Applications</h3>
 				<ul>
 					<li className={styles.li}>

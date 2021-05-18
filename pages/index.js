@@ -10,7 +10,6 @@ export default function Home() {
 			<Head>
 				<title>Home - A.Iacuone</title>
 			</Head>
-
 			<div className={styles.subContainer1}>
 				<div className={styles.nameContainer}>
 					<div className={styles.photo} />

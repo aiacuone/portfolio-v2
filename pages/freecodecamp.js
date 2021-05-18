@@ -25,6 +25,8 @@ export default function freecodecamp() {
 					course does a brilliant job in introducing the basics, before moving
 					onto advanced areas.
 				</p>
+				<h3>Date Completed</h3>
+				<p>February, 2021</p>
 				<h3>Languages</h3>
 				<ul>
 					<li className={styles.li}>
@@ -60,6 +62,9 @@ export default function freecodecamp() {
 					href="https://freecodecamp-notes-portfolio.netlify.app/"
 					target="_blank">
 					<button className={styles.button}>View</button>
+				</a>
+				<a href="https://ibb.co/vVpgJz9" target="_blank">
+					<button className={styles.button}>Certificate</button>
 				</a>
 			</div>
 		</div>

@@ -16,28 +16,30 @@ export default function detailsCheapshark() {
 			<p className={styles.text}>
 				<b>Why did I create this project?</b>
 				<br />
-				I wanted to incorporate the use of JSON files, as well as an API. I've
-				learnt that both JSON files and API's play a large part in the industry
-				and should be a tool in every Software Developers kit.
+				To gain experience using JSON files and REST API's.
+				I've learnt that both JSON files and API's play a large part in the
+				industry and should be a tool in every Software Developers kit.
 				<br />
 				<br />
 				<b>What did I learn creating this project?</b>
 				<br />
-				How to use JSON files and API's. To give myself an additional challenge,
-				I created my own multiple range slider. I see myself as a front-end
-				developer, and I thought that a front end developer should be able to
-				create a multiple range slider
+				How to use JSON files and a REST API. To give myself an additional
+				challenge, I created my own multiple range sliders that are located at
+				the top of the application.
+				<div className={styles.sliders} />
+				To achieve this, I could have implemented ready made multiple range
+				sliders from a library like Bootstrap, but instead created my own.
 				<br />
 				<br />
 				<b>What was the hardest part of this project?</b>
 				<br />
-				Create the desired outcome with a restricted API. I found that public
-				API's are not always free, aren not always easy to use and are not
-				always versatile. For example, I wanted the API offers the ability to
-				filter results using multiple attributes such as price, and amount of
-				reviews, however it does not allow the ability to filter based on
-				release date. To achieve the desired result, I needed to implement API
-				filtering, as well as local filtering using Javascript code.
+				To create the desired outcome with a restricted API. Whilst creating
+				this application, I learnt API's are not always free, are not always
+				easy to use and are not always versatile. For example, I wanted to use
+				the API to filter by the games release date, however it was not
+				possible by only using the API. To achieve this, I
+				needed to implement Javascript code filtering. As a result, the final
+				product is a hybrid between Javascript filtering and API filtering.
 				<br />
 				<br />
 			</p>
