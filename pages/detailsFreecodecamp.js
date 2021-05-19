@@ -30,7 +30,7 @@ export default function detailsFreecodecamp() {
 				The JavaScript algorithms were challenging. There were times
 				that I felt like Freecodecamp did a very good job in leading you up to
 				challenging exercises, and there were times I felt like I was thrown in
-				the deep end, resulting in hours of research.
+				the deep end, resulting in hours of research. Luckily there are various resources that have solutions to the exercises, and whilst I used these resources, I did not heavily rely on them, but instead treated them as option at a point where I had exhausted all my ideas and options.
 			</p>
 		</div>
 	)

@@ -37,7 +37,7 @@ export default function tekkenNet() {
 					</li>
 					<li className={styles.li}>
 						<img src={javascript} className={styles.icon} />
-						Javascript
+						JavaScript
 					</li>
 					<li className={styles.li}>
 						<img src={css} className={styles.icon} />

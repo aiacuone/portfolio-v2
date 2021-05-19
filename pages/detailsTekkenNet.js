@@ -56,8 +56,7 @@ export default function detailsTekkenNet() {
 				<b>What challenges did I face creating this project?</b>
 				<br />
 				Filtering and displaying information. I had the skills to filter
-				information, as well as display information, but to display filtered
-				information, at the time was challenging. I overcame the problem by storing my filtering functions within an object, then using object indexing, was able to call the correct function when necessary.
+				information, as well as display information, but to do both at the same time was challenging. I overcame the problem by storing my filtering functions within an object, then using object indexing, I was able to call the correct filtering function when necessary.
 			</p>
 		</div>
 	)

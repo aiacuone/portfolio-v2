@@ -21,7 +21,7 @@ export default function freecodecamp() {
 				<h3>Summary</h3>
 				<p>
 					Freecodecamp is a completely free online course that covers a broad
-					range of areas in Software Development, in particular, Javascript. The
+					range of areas in Software Development, in particular, JavaScript. The
 					course does a brilliant job in introducing the basics, before moving
 					onto advanced areas.
 				</p>
@@ -35,7 +35,7 @@ export default function freecodecamp() {
 					</li>
 					<li className={styles.li}>
 						<img src={javascript} className={styles.icon} />
-						Javascript
+						JavaScript
 					</li>
 					<li className={styles.li}>
 						<img src={css} className={styles.icon} />

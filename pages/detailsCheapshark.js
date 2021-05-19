@@ -24,7 +24,7 @@ export default function detailsCheapshark() {
 				<b>What did I learn creating this project?</b>
 				<br />
 				How to use JSON files and a REST API. To give myself an additional
-				challenge, I created multiple range sliders from scratch, twhich can be found at
+				challenge, I created multiple range sliders from scratch, which can be found at
 				the top of the application.
 				<div className={styles.sliders} />
 				To achieve this, I could have implemented ready made multiple range

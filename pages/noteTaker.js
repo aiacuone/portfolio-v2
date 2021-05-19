@@ -34,7 +34,7 @@ export default function noteTaker() {
 					</li>
 					<li className={styles.li}>
 						<img src={javascript} className={styles.icon} />
-						Javascript
+						JavaScript
 					</li>
 					<li className={styles.li}>
 						<img src={css} className={styles.icon} />
