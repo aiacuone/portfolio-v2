@@ -13,7 +13,7 @@ export default function detailsTekkenNet() {
 			</a>
 			<h3 className={styles.title}>Tekken Net: More Details</h3>
 			<p className={styles.text}>
-				My first ever project, which I'm very proud of. A tip I was given when
+				My first ever project, which I am very proud of. A tip I was given when
 				starting Software Development, was that you're not going to become a
 				good developer by just watching tutorials. The way to become a good
 				developer, is to focus in on a problem or idea that you have, and dive
@@ -28,7 +28,7 @@ export default function detailsTekkenNet() {
 				having 80+ moves, all those moves having their own attributes and
 				characteristics. Sound difficult? It is. This information isn't
 				organised in a way that is easily accessed. At this time, there is no
-				official way to view this information. The ideal way is by using a
+				official way to view this information, and the ideal way is by using a
 				website created by a Tekken enthusiast at&nbsp;
 				<a
 					href="https://rbnorway.org/t7-frame-data/"
@@ -57,7 +57,7 @@ export default function detailsTekkenNet() {
 				<br />
 				Filtering and displaying information. I had the skills to filter
 				information, as well as display information, but to display filtered
-				information, at the time was challenging. 
+				information, at the time was challenging. I overcame the problem by storing my filtering functions within an object, then using object indexing, was able to call the correct function when necessary.
 			</p>
 		</div>
 	)

@@ -24,7 +24,7 @@ export default function detailsCheapshark() {
 				<b>What did I learn creating this project?</b>
 				<br />
 				How to use JSON files and a REST API. To give myself an additional
-				challenge, I created my own multiple range sliders that are located at
+				challenge, I created multiple range sliders from scratch, twhich can be found at
 				the top of the application.
 				<div className={styles.sliders} />
 				To achieve this, I could have implemented ready made multiple range
@@ -34,12 +34,12 @@ export default function detailsCheapshark() {
 				<b>What was the hardest part of this project?</b>
 				<br />
 				To create the desired outcome with a restricted API. Whilst creating
-				this application, I learnt API's are not always free, are not always
+				this application, I learnt API's are not always free,
 				easy to use and are not always versatile. For example, I wanted to use
 				the API to filter by the games release date, however it was not
 				possible by only using the API. To achieve this, I
-				needed to implement Javascript code filtering. As a result, the final
-				product is a hybrid between Javascript filtering and API filtering.
+				needed to implement JavaScript code filtering. As a result, the final
+				product is a hybrid between JavaScript filtering and API filtering.
 				<br />
 				<br />
 			</p>

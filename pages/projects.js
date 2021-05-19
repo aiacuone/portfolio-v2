@@ -18,8 +18,8 @@ export default function projects() {
 			</a>
 			<h2 className={styles.title}>PROJECTS</h2>
 			<p className={styles.p}>
-				These are my personal projects that I created myself. Click on the
-				picture to view them
+				These are my personal projects that I created independently. Click on the
+				picture to view them.
 			</p>
 			<ul className={styles.ul}>
 				<li className={styles.li}>

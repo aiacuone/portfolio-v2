@@ -33,7 +33,7 @@ export default function skills() {
 						<img className={styles.icon} src={next} />
 					</li>
 					<li className={styles.li}>
-						Javascript
+						JavaScript
 						<img className={styles.icon} src={javascript} />
 					</li>
 

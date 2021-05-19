@@ -22,14 +22,14 @@ export default function detailsFreecodecamp() {
 				<br />
 				<b>What did I learn creating this project?</b>
 				<br />
-				The foundation of Javascript, React, CSS, HTML and SASS
+				The foundation of JavaScript, React, CSS, HTML and SASS
 				<br />
 				<br />
 				<b>What was the hardest part of Freecodecamp</b>
 				<br />
-				The Javascript algorithms were challenging. There were times
+				The JavaScript algorithms were challenging. There were times
 				that I felt like Freecodecamp did a very good job in leading you up to
-				challenging exercises, and there we're times I felt like I was thrown in
+				challenging exercises, and there were times I felt like I was thrown in
 				the deep end, resulting in hours of research.
 			</p>
 		</div>

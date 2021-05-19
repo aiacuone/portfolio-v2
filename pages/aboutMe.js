@@ -21,10 +21,7 @@ export default function aboutMe() {
 					<b>Name :</b> Adrian Iacuone
 				</li>
 				<li className={styles.li}>
-					<b>Birth Date :</b> May 1987
-				</li>
-				<li className={styles.li}>
-					<b>Location :</b> South-West London
+					<b>Location :</b> South West London
 				</li>
 				<li className={styles.li}>
 					<b>Nationality :</b> Australian

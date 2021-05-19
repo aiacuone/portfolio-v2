@@ -17,13 +17,13 @@ export default function detailsNoteTaker() {
 				<br />
 				When I was first thinking about this project, I had the intention of
 				challenging myself and using the CRUD system (create, read, update,
-				delete). I felt like I had a good grasp of the basics of react, and
+				delete). I felt like I had a good grasp of the basics of React, and
 				wanted to express an idea that I had since the first time I saw a
-				Javascript object.
+				JavaScript object.
 				<br />
 				<br />
-				When I first saw a Javascript object, the first thing that came to mind
-				was a folder, a folder that contain another folder and so on. Using this
+				When I first saw a JavaScript object, the first thing that came to mind
+				was a folder, a folder that contains another folder and so on. Using this
 				concept and my need for notes in my every day life, I wanted to develop
 				an easy to use system that could create and store any type of note.
 				<br />
@@ -31,12 +31,12 @@ export default function detailsNoteTaker() {
 				<b>What did I learn creating this project?</b>
 				<br />
 				This project challenged me to position elements correctly and
-				comfortably for the user, using css positioning, displays and attributes
+				comfortably for the user, using CSS positioning, displays and attributes
 				likes margins and padding.
 				<br />
 				<br />
-				I learnt alot about giving the user the ability to scroll within tight areas, pop up menus, and arranging
-				elements in a way that are easily viewed and accessed.
+				I learnt alot about giving the user the ability to scroll within tight areas, pop up menus and arranging
+				elements in a way that is easily viewed and accessed.
 				<br />
 				<br />
 				I learnt how to implement the CRUD system. I created a system that can
@@ -46,12 +46,10 @@ export default function detailsNoteTaker() {
 				<br />
 				<b>What was the hardest part of this project?</b>
 				<br />
-				Object Oriented Programming. In Vanilla Javascript, applying complicated
+				Object Oriented Programming. In Vanilla JavaScript, applying complicated
 				object methods can be challenging and at times impossible. I found that
-				implementing the Lodash Library made what I was trying to achieve
+				implementing the Lodash Library, made what I was trying to achieve
 				possible.
-				<br />
-				<br />
 			</p>
 		</div>
 	)
