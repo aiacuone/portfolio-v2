@@ -22,7 +22,7 @@ export default function detailsNoteTaker() {
 				JavaScript object.
 				<br />
 				<br />
-				When I first saw a JavaScript object, the first thing that came to mind
+				When I first saw a JavaScript object, what came to mind
 				was a folder, a folder that contains another folder and so on. Using this
 				concept and my need for notes in my every day life, I wanted to develop
 				an easy to use system that could create and store any type of note.
