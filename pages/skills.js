@@ -10,6 +10,9 @@ import html from '../images/html.svg'
 import illustrator from '../images/illustrator.svg'
 import photoshop from '../images/photoshop.svg'
 import object from '../images/object.svg'
+import git from '../images/git.svg'
+import github from '../images/github.svg'
+import npm from '../images/npm.svg'
 
 export default function skills() {
 	return (
@@ -25,6 +28,10 @@ export default function skills() {
 			<div className={styles.skills}>
 				<ul className={styles.ul}>
 					<li className={styles.li}>
+						JavaScript
+						<img className={styles.icon} src={javascript} />
+					</li>
+					<li className={styles.li}>
 						React
 						<img className={styles.icon} src={react} />
 					</li>
@@ -32,18 +39,18 @@ export default function skills() {
 						Next JS
 						<img className={styles.icon} src={next} />
 					</li>
-					<li className={styles.li}>
-						JavaScript
-						<img className={styles.icon} src={javascript} />
-					</li>
 
 					<li className={styles.li}>
-						Lodash
-						<img className={styles.tallIcon} src={lodash} />
+						Git
+						<img className={styles.tallIcon} src={git} />
 					</li>
 					<li className={styles.li}>
-						Object-Oriented Programming
-						<img className={styles.tallIcon} src={object} />
+						GitHub
+						<img className={styles.tallIcon} src={github} />
+					</li>
+					<li className={styles.li}>
+						NPM
+						<img className={styles.icon} src={npm} />
 					</li>
 					<li className={styles.li}>
 						CSS
@@ -52,6 +59,14 @@ export default function skills() {
 					<li className={styles.li}>
 						HTML
 						<img className={styles.tallIcon} src={html} />
+					</li>
+					<li className={styles.li}>
+						Object-Oriented Programming
+						<img className={styles.tallIcon} src={object} />
+					</li>
+					<li className={styles.li}>
+						Lodash
+						<img className={styles.tallIcon} src={lodash} />
 					</li>
 					<li className={styles.li}>
 						Adobe Illustrator
