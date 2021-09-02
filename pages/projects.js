@@ -8,41 +8,42 @@ import noteTaker from '../images/noteTakerLogo.svg'
 import Link from 'next/link'
 
 export default function projects() {
-	return (
-		<div className="container">
-			<Head>
-				<title>Projects - A.Iacuone</title>
-			</Head>
-			<a className="back_button" onClick={() => window.history.back()}>
-				Back
-			</a>
-			<h2 className={styles.title}>PROJECTS</h2>
-			<p className={styles.p}>
-				These are my personal projects that I created independently. Click on the
-				picture to view them.
-			</p>
-			<ul className={styles.ul}>
-				<li className={styles.li}>
-					<Link href="/noteTaker">
-						<img src={noteTaker} className={styles.icon} />
-					</Link>
-				</li>
-				<li className={styles.li}>
-					<Link href="/cheapshark">
-						<img src={cheapshark} className={styles.icon} />
-					</Link>
-				</li>
-				<li className={styles.li}>
-					<Link href="/tekkenNet">
-						<img src={tekkenNet} className={styles.icon} />
-					</Link>
-				</li>
-				<li className={styles.li}>
-					<Link href="/freecodecamp">
-						<img src={freecodecamp} className={styles.icon} />
-					</Link>
-				</li>
-			</ul>
-		</div>
-	)
+  return (
+    <div className="container">
+      <Head>
+        <title>Projects - A.Iacuone</title>
+      </Head>
+      <a className="back_button" onClick={() => window.history.back()}>
+        Back
+      </a>
+      <h2 className={styles.title}>PROJECTS</h2>
+      <p className={styles.p}>
+        These are my personal projects that I created independently. Click on
+        the picture to view them.
+      </p>
+      <ul className={styles.ul}>
+        <li className={styles.li}>
+          <Link href="/tekkenNet">
+            <img src={tekkenNet} className={styles.icon} />
+          </Link>
+        </li>
+        <li className={styles.li}>
+          <Link href="/noteTaker">
+            <img src={noteTaker} className={styles.icon} />
+          </Link>
+        </li>
+        <li className={styles.li}>
+          <Link href="/cheapshark">
+            <img src={cheapshark} className={styles.icon} />
+          </Link>
+        </li>
+
+        <li className={styles.li}>
+          <Link href="/freecodecamp">
+            <img src={freecodecamp} className={styles.icon} />
+          </Link>
+        </li>
+      </ul>
+    </div>
+  )
 }
