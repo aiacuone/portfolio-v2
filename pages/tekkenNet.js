@@ -79,7 +79,7 @@ export default function tekkenNet() {
         <a href="https://aiacuone-tekkenet.netlify.app/" target="_blank">
           <button className={styles.button}>View</button>
         </a>
-        <a href="https://github.com/aiacuone/Tekkenet" target="_blank">
+        <a href="https://github.com/aiacuone/tekken-net" target="_blank">
           <button className={styles.button}>Github</button>
         </a>
       </div>
