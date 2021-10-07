@@ -29,7 +29,7 @@ export default function detailsCheapshark() {
           <li>React Resize Detector</li>
           <li>Lodash - Find, Debounce</li>
         </ul>
-        <b>What was the biggest challenges of the project?</b>
+        <b>What challenges did I face creating this project?</b>
         <br />
         Implementing a system that has different ways of filtering for
         information. The API that im using for the project is not as versatile

@@ -26,7 +26,7 @@ export default function detailsFreecodecamp() {
         The foundation of JavaScript, React, CSS, HTML and SASS
         <br />
         <br />
-        <b>What was the biggest challenges of the Freecodecamp?</b>
+        <b>What challenges did I face creating this project?</b>
         <br />
         The JavaScript algorithms were challenging. There were times that I felt
         like Freecodecamp did a very good job in leading you up to challenging
