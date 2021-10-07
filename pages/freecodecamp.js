@@ -27,7 +27,7 @@ export default function freecodecamp() {
         </p>
         <h3>Last Updated</h3>
         <p>February, 2021</p>
-        <h3>Languages</h3>
+        <h3>Languages, Libraries & Applications</h3>
         <ul>
           <li className={styles.li}>
             <img src={react} className={styles.icon} />

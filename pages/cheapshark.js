@@ -7,6 +7,9 @@ import javascript from '../images/javascriptLogo.svg'
 import css from '../images/css.svg'
 import html from '../images/html.svg'
 import illustrator from '../images/illustrator.svg'
+import materialUi from '../images/materialUiLogo.svg'
+import next from '../images/next.svg'
+import lodash from '../images/lodash.svg'
 
 export default function cheapshark() {
   return (
@@ -25,8 +28,8 @@ export default function cheapshark() {
           specifically game deals across various online stores.
         </p>
         <h3>Last Updated</h3>
-        <p>March, 2021</p>
-        <h3>Languages & Applications</h3>
+        <p>October, 2021</p>
+        <h3>Languages, Libraries & Applications</h3>
         <ul>
           <li className={styles.li}>
             <img src={react} className={styles.icon} />
@@ -35,6 +38,19 @@ export default function cheapshark() {
           <li className={styles.li}>
             <img src={javascript} className={styles.icon} />
             JavaScript
+          </li>
+
+          <li className={styles.li}>
+            <img src={next} className={styles.icon} />
+            Next JS
+          </li>
+          <li className={styles.li}>
+            <img src={materialUi} className={styles.icon} />
+            Material UI
+          </li>
+          <li className={styles.li}>
+            <img src={lodash} className={styles.icon} />
+            Lodash
           </li>
           <li className={styles.li}>
             <img src={css} className={styles.icon} />
@@ -50,10 +66,14 @@ export default function cheapshark() {
           </li>
         </ul>
         <h3>Skills</h3>
-        <p>
-          REST API's, Loops, Arrays, Array Methods, Objects, Object methods,
-          Functions
-        </p>
+        <ul>
+          <li>API's</li>
+          <li>JSON files</li>
+          <li>Async/Await functions</li>
+          <li>Material UI drawer component</li>
+          <li>React Resize Detector</li>
+          <li>Lodash - Find, Debounce</li>
+        </ul>
       </div>
       <Link href="/detailsCheapshark">
         <button className={styles.button}>More Details</button>

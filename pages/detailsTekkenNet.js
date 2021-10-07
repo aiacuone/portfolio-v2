@@ -54,7 +54,7 @@ export default function detailsTekkenNet() {
         the map method), and object methods. <br />
         <br />
         <br />
-        <b>What challenges did I face creating this project?</b>
+        <b>What was the biggest challenges of the project?</b>
         <br />
         Filtering and displaying information. I had the skills to filter
         information, as well as display information, but to do both at the same
