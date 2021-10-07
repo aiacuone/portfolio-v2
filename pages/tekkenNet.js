@@ -31,7 +31,7 @@ export default function tekkenNet() {
         </p>
         <h3>Last Updated</h3>
         <p>September, 2021</p>
-        <h3>Languages & Applications</h3>
+        <h3>Languages, Libraries & Applications</h3>
         <ul>
           <li className={styles.li}>
             <img src={react} className={styles.icon} />
