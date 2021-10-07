@@ -23,6 +23,11 @@ export default function projects() {
       </p>
       <ul className={styles.ul}>
         <li className={styles.li}>
+          <Link href="/cheapshark">
+            <img src={cheapshark} className={styles.icon} />
+          </Link>
+        </li>
+        <li className={styles.li}>
           <Link href="/tekkenNet">
             <img src={tekkenNet} className={styles.icon} />
           </Link>
@@ -30,11 +35,6 @@ export default function projects() {
         <li className={styles.li}>
           <Link href="/noteTaker">
             <img src={noteTaker} className={styles.icon} />
-          </Link>
-        </li>
-        <li className={styles.li}>
-          <Link href="/cheapshark">
-            <img src={cheapshark} className={styles.icon} />
           </Link>
         </li>
 
